@@ -1,0 +1,36 @@
+$color-dk-blue: #081B38;
+$color-yellow: #EAB535;
+$color-orange: #E76F51;
+$color-gray: #666666;
+$color-light: white;
+
+$header-font: "GelosaCara-Regular";
+$body-font: "Raleway-Regular";
+
+@font-face: {
+    font-family: "GelosaCara-Regular";
+    src: url('fonts/GelosaCara.otf') format('opentype');
+}
+
+@font-face: {
+    font-family: "Raleway-Regular";
+    src: url('fonts/Raleway-Regular.ttf') format('truetype');
+}
+
+h1 {
+    font-family: $header-font;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-color: $color-yellow;
+    h1 {
+        font-family: $header-font;
+        color: $color-dk-blue;
+    }
+    h3 {
+        color: $color-gray;
+        font-family: $body-font;
+    }
+}

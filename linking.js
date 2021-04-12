@@ -1,14 +1,17 @@
 // General API Video Tutorial
-// https://www.youtube.com/watch?v=ecT42O6I_WI
+    // https://www.youtube.com/watch?v=ecT42O6I_WI
 
-// Etsy API documentation
-// https://www.etsy.com/developers/documentation/getting_started/api_basics
+// Etsy Specific API documentation
+    // Basic: 
+        // https://www.etsy.com/developers/documentation/getting_started/api_basics
+    // Oauth and temporary credentials:
+        // https://www.etsy.com/developers/documentation/getting_started/oauth
 
-// Special documentation for javascript access:
-// https://www.etsy.com/developers/documentation/getting_started/jsonp
+    // Special documentation for javascript access:
+        // https://www.etsy.com/developers/documentation/getting_started/jsonp
 
-// Jquery documentation:
-// https://www.etsy.com/developers/documentation/resources/jquery
+    // Jquery documentation:
+        // https://www.etsy.com/developers/documentation/resources/jquery
 
 /* APP NAME eCommerce Vintage Goods Storefront
 KEYSTRING 6ldxmjbulo45wo6otj054ehd
