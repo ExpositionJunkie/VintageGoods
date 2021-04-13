@@ -6,28 +6,45 @@ $color-light: white;
 
 $header-font: 'Gelosa Cara', sans-serif;
 $body-font: 'Raleway', sans-serif;
+$footer-link-font: 'Open Sans', sans-serif;
 
-@font-face: {
+@font-face {
     font-family: 'Gelosa Cara';
     src: url('fonts/GelosaCara.otf') format('opentype');
 }
 
+@mixin for-phone-only {
+    @media (max-width: 599px) { @content; }
+  }
+
+
 h1 {
     font-family: $header-font;
+}
+
+.navbar {
+    background-color: $color-yellow!important;
+    font-family: $footer-link-font;
+}
+
+.logo-banner {
+    @include for-phone-only {
+        width: 80%;
+        height: auto;
+    }
 }
 
 .jumbotron {
     margin: 0;
     padding: 30px;
     background-color: $color-yellow;
-    h1 {
-        font-family: $header-font;
-        color: $color-dk-blue;
-    }
     h2 {
         color: $color-gray;
         font-family: $body-font;
         font-weight: 200px;
+        @include for-phone-only{
+            font-size: 1.5rem;
+        }
     }
     h3 {
         color: $color-dk-blue;
