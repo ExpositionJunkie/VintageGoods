@@ -1,21 +1,31 @@
-@font-face : {
+@font-face {
   font-family: 'Gelosa Cara';
   src: url("fonts/GelosaCara.otf") format("opentype"); }
 
 h1 {
   font-family: "Gelosa Cara", sans-serif; }
 
+.navbar {
+  background-color: #EAB535 !important;
+  font-family: "Open Sans", sans-serif; }
+
+@media (max-width: 599px) {
+  .logo-banner {
+    width: 80%;
+    height: auto; } }
+
 .jumbotron {
   margin: 0;
   padding: 30px;
   background-color: #EAB535; }
-  .jumbotron h1 {
-    font-family: "Gelosa Cara", sans-serif;
-    color: #081B38; }
   .jumbotron h2 {
     color: #666666;
     font-family: "Raleway", sans-serif;
-    font-weight: 200px; }
+    font-weight: 200px;
+    padding-top: -10px; }
+    @media (max-width: 599px) {
+      .jumbotron h2 {
+        font-size: 1.5rem; } }
   .jumbotron h3 {
     color: #081B38;
     font-family: "Raleway", sans-serif;
