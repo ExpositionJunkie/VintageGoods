@@ -4,17 +4,12 @@ $color-orange: #E76F51;
 $color-gray: #666666;
 $color-light: white;
 
-$header-font: "GelosaCara-Regular";
-$body-font: "Raleway-Regular";
+$header-font: 'Gelosa Cara', sans-serif;
+$body-font: 'Raleway', sans-serif;
 
 @font-face: {
-    font-family: "GelosaCara-Regular";
+    font-family: 'Gelosa Cara';
     src: url('fonts/GelosaCara.otf') format('opentype');
-}
-
-@font-face: {
-    font-family: "Raleway-Regular";
-    src: url('fonts/Raleway-Regular.ttf') format('truetype');
 }
 
 h1 {
@@ -29,8 +24,18 @@ h1 {
         font-family: $header-font;
         color: $color-dk-blue;
     }
-    h3 {
+    h2 {
         color: $color-gray;
         font-family: $body-font;
+        font-weight: 200px;
     }
+    h3 {
+        color: $color-dk-blue;
+        font-family: $body-font;
+        font-weight: 200px;
+    }
+}
+
+p {
+    font-family: $body-font;
 }
