@@ -21,8 +21,7 @@ h1 {
   .jumbotron h2 {
     color: #666666;
     font-family: "Raleway", sans-serif;
-    font-weight: 200px;
-    padding-top: -10px; }
+    font-weight: 200px; }
     @media (max-width: 599px) {
       .jumbotron h2 {
         font-size: 1.5rem; } }
@@ -33,3 +32,9 @@ h1 {
 
 p {
   font-family: "Raleway", sans-serif; }
+
+body {
+  background-color: #081B38; }
+
+.background-blue {
+  background-color: #264653; }
