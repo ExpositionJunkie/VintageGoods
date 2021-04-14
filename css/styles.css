@@ -2,6 +2,7 @@
   font-family: 'Gelosa Cara';
   src: url("fonts/GelosaCara.otf") format("opentype"); }
 
+ashgj
 h1 {
   font-family: "Gelosa Cara", sans-serif; }
 
@@ -13,6 +14,13 @@ h1 {
   .logo-banner {
     width: 80%;
     height: auto; } }
+
+body {
+  background-color: #081B38; }
+
+.carousel-item {
+  font-family: "Raleway", sans-serif;
+  font-weight: 100; }
 
 .jumbotron {
   margin: 0;

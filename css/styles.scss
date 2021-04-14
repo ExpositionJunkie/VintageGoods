@@ -17,7 +17,6 @@ $footer-link-font: 'Open Sans', sans-serif;
     @media (max-width: 599px) { @content; }
   }
 
-
 h1 {
     font-family: $header-font;
 }
@@ -32,6 +31,15 @@ h1 {
         width: 80%;
         height: auto;
     }
+}
+
+body {
+    background-color: $color-dk-blue;
+}
+
+.carousel-item {
+    font-family: $body-font;
+    font-weight: 100;
 }
 
 .jumbotron {
