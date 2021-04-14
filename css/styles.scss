@@ -1,3 +1,9 @@
+// ONLY the .SCSS file should be edited
+// the .CSS file will be overwritten
+// by typing "npm run scss" into the console!
+
+// ^ do that to see changes in the scss code
+
 $color-dk-blue: #081B38;
 $color-light-dk-blue: #264653;
 $color-yellow: #EAB535;
@@ -79,6 +85,8 @@ body {
 
 }
 
+
+// footer formatting only
 footer {
     background-color:transparent;
     padding: 7rem 0;
