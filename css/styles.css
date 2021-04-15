@@ -11,11 +11,6 @@
   background-color: #EAB535 !important;
   font-family: "Open Sans", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
 
-@media (max-width: 599px) {
-  .logo-banner {
-    width: 80%;
-    height: auto; } }
-
 .card-category {
   width: 250px;
   height: 300px;
@@ -24,6 +19,9 @@
 
 body {
   background-color: #081B38; }
+
+.carousel {
+  width: 100%; }
 
 .carousel-item {
   font-family: "Raleway", sans-serif;
