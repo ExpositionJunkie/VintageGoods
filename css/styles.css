@@ -5,7 +5,7 @@
 .separator-line {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   padding-top: 2rem !important;
-  margin-top: 7rem; }
+  margin-top: 3rem; }
 
 .navbar {
   background-color: #EAB535 !important;
@@ -15,6 +15,12 @@
   .logo-banner {
     width: 80%;
     height: auto; } }
+
+.card-category {
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+  margin: 5%; }
 
 body {
   background-color: #081B38; }
