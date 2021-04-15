@@ -1,21 +1,51 @@
+<<<<<<< HEAD
 @font-face : {
   font-family: "Gelosa Cara";
+=======
+@font-face {
+  font-family: 'Gelosa Cara';
+>>>>>>> e7c53cde60fef79a3e5f9f889864b9615d1a994e
   src: url("fonts/GelosaCara.otf") format("opentype"); }
 
-h1 {
-  font-family: "Gelosa Cara", sans-serif; }
+.separator-line {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 2rem !important;
+  margin-top: 7rem; }
+
+.navbar {
+  background-color: #EAB535 !important;
+  font-family: "Open Sans", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+
+@media (max-width: 599px) {
+  .logo-banner {
+    width: 80%;
+    height: auto; } }
+
+body {
+  background-color: #081B38; }
+
+.carousel-item {
+  font-family: "Raleway", sans-serif;
+  font-weight: lighter; }
 
 .jumbotron {
   margin: 0;
   padding: 30px;
+<<<<<<< HEAD
   background-color: #eab535; }
   .jumbotron h1 {
     font-family: "Gelosa Cara", sans-serif;
     color: #081b38; }
+=======
+  background-color: #EAB535; }
+>>>>>>> e7c53cde60fef79a3e5f9f889864b9615d1a994e
   .jumbotron h2 {
-    color: #666666;
+    color: #E76F51;
     font-family: "Raleway", sans-serif;
     font-weight: 200px; }
+    @media (max-width: 599px) {
+      .jumbotron h2 {
+        font-size: 1.5rem; } }
   .jumbotron h3 {
     color: #081b38;
     font-family: "Raleway", sans-serif;
@@ -25,6 +55,7 @@ p {
   font-family: "Raleway", sans-serif; }
 
 body {
+<<<<<<< HEAD
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
 
 h1, h2, h3, h4, h5, h6,
@@ -174,3 +205,102 @@ a, a:hover {
 .footer-32892 .site-logo {
   color: #E76F51;
   font-size: 20px; }
+=======
+  background-color: #081B38; }
+
+.background-blue {
+  background-color: #264653; }
+
+footer {
+  background-color: transparent;
+  padding: 7rem 0;
+  color: #888888;
+  font-size: 16px;
+  padding-left: 0; }
+  footer a {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    color: #E76F51; }
+  footer a a:hover {
+    text-decoration: none !important; }
+  footer h3 {
+    font-family: "Open Sans", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 20px;
+    color: #E76F51;
+    margin-bottom: 30px; }
+  footer .content {
+    height: 70vh; }
+  footer p {
+    font-family: "Open Sans", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+  footer .row .gallery {
+    margin-right: -5px;
+    margin-left: -5px;
+    padding-right: 5px;
+    padding-left: 5px; }
+  footer .gallery a {
+    display: block;
+    margin-bottom: 10px;
+    -o-transition: .3s all ease;
+    transition: .3s all ease; }
+  footer .gallery a:hover {
+    opacity: .5; }
+  footer .quick-info li {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 20px; }
+  footer .icon {
+    font-size: 20px;
+    color: #E76F51; }
+  footer .subscribe {
+    position: relative; }
+  footer .subscribe .form-control {
+    background-color: #e0e3ed;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 30px;
+    height: 55px;
+    padding-left: 30px;
+    padding-right: 130px;
+    border: none;
+    color: white; }
+  footer .subscribe .form-control::-webkit-input-placeholder ::-ms-input-placeholder ::-moz-placeholder {
+    color: #ccc;
+    font-size: 14px; }
+  footer .subscribe .btn-submit {
+    background: #E76F51;
+    height: 47px;
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2); }
+  footer span {
+    color: #E76F51; }
+  footer .footer-menu-wrap {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 2rem !important;
+    margin-top: 7rem; }
+  footer .footer-menu {
+    margin-bottom: 0; }
+  footer .footer-menu li {
+    display: inline-block; }
+  @media (max-width: 767.98px) {
+    footer .footer-32892 .footer-menu li {
+      display: block; } }
+  footer .footer-menu li a {
+    padding: 10px;
+    display: inline-block;
+    color: #E76F51; }
+  @media (max-width: 767.98px) {
+    footer .footer-32892 .footer-menu li a {
+      display: block;
+      padding-left: 0px; } }
+  footer .footer-menu li:first-child a {
+    padding-left: 0; }
+>>>>>>> e7c53cde60fef79a3e5f9f889864b9615d1a994e
