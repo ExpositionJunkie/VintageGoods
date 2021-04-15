@@ -150,7 +150,9 @@ footer {
     width: 12rem; }
   .shopImage {
     margin-left: 22px;
-    margin-top: 22px; } }
+    margin-top: 22px; }
+  .cardImage {
+    height: 16rem; } }
 
 @media (min-width: 992px) {
   .card-width {
@@ -158,7 +160,9 @@ footer {
   .shopImage {
     margin-left: 20px;
     margin-top: 22px;
-    padding-left: 5%; } }
+    padding-left: 5%; }
+  .cardImage {
+    height: 18rem; } }
 
 @media (min-width: 1400px) {
   .card-width {
@@ -166,7 +170,9 @@ footer {
   .shopImage {
     margin-left: 20px;
     margin-top: 22px;
-    padding-left: 5%; } }
+    padding-left: 5%; }
+  .cardImage {
+    height: 22rem; } }
 
 @media (min-width: 1600px) {
   .card-width {
@@ -174,7 +180,9 @@ footer {
   .shopImage {
     margin-left: 20px;
     margin-top: 22px;
-    padding-left: 5%; } }
+    padding-left: 5%; }
+  .cardImage {
+    height: 24rem; } }
 
 @media (min-width: 1800px) {
   .card-width {
@@ -182,7 +190,9 @@ footer {
   .shopImage {
     margin-left: 25px;
     margin-top: 22px;
-    padding-left: 5%; } }
+    padding-left: 5%; }
+  .cardImage {
+    height: 28rem; } }
 
 .picHover img:last-child {
   display: none; }
@@ -197,9 +207,7 @@ footer {
   position: relative; }
 
 .imageShopHover {
-  display: block;
-  width: 100%;
-  height: auto; }
+  display: block; }
 
 .overlay {
   position: absolute;

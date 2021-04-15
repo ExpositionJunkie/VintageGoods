@@ -246,6 +246,9 @@ footer {
         margin-top: 22px;
         
       }
+      .cardImage {
+        height: 16rem;
+    }
 }
 
 
@@ -260,6 +263,9 @@ footer {
         margin-top: 22px;
         padding-left: 5%;
        }
+       .cardImage {
+        height: 18rem;
+    }
 }
 
 @media (min-width: 1400px) {
@@ -272,6 +278,9 @@ footer {
         margin-top: 22px;
         padding-left: 5%;
        }
+       .cardImage {
+        height: 22rem;
+    }
 }
 
 @media (min-width: 1600px) {
@@ -284,6 +293,9 @@ footer {
         margin-top: 22px;
         padding-left: 5%;
        }
+       .cardImage {
+        height: 24rem;
+    }
 }
 
 @media (min-width: 1800px) {
@@ -296,6 +308,10 @@ footer {
         margin-top: 22px;
         padding-left: 5%;
        }
+    
+    .cardImage {
+        height: 28rem;
+    }
 }
 
 .picHover {
@@ -318,8 +334,6 @@ footer {
 
 .imageShopHover {
     display: block;
-    width: 100%;
-    height: auto;
 }
 
 .overlay {
