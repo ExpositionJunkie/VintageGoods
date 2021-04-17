@@ -11,18 +11,48 @@
   background-color: #EAB535 !important;
   font-family: "Open Sans", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
 
+.categoryHoverWrapper {
+  position: relative; }
+
 .card-category {
-  width: 250px;
-  height: 300px;
+  position: relative;
   object-fit: cover;
-  margin: 5%; }
+  margin: .5rem;
+  height: 300px;
+  width: 250px; }
+
+.whiteOverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 14px;
+  right: 0;
+  margin: .5rem;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(218, 203, 165, 0.733); }
+
+.categoryHoverWrapper:hover .whiteOverlay {
+  opacity: 1; }
+
+.categoryCaption {
+  color: #081B38;
+  font-size: 3rem;
+  font-family: "Raleway", sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center; }
 
 body {
   background-color: #081B38; }
-
-h2 {
-  text-align: center;
-  color: #E76F51; }
 
 .carousel {
   width: 100%; }
@@ -55,13 +85,6 @@ body {
 
 .background-blue {
   background-color: #264653; }
-
-h5 {
-  text-align: center;
-  color: #E76F51; }
-  h5 .rounded-circle {
-    width: 100%;
-    height: auto; }
 
 footer {
   background-color: transparent;
@@ -125,7 +148,7 @@ footer {
     border-radius: 30px;
     padding-left: 30px;
     padding-right: 30px;
-    color: #e0e3ed;
+    color: #fff;
     font-weight: bold;
     position: absolute;
     top: 4px;
@@ -161,9 +184,7 @@ footer {
     width: 12rem; }
   .shopImage {
     margin-left: 22px;
-    margin-top: 22px; }
-  .cardImage {
-    height: 16rem; } }
+    margin-top: 22px; } }
 
 @media (min-width: 992px) {
   .card-width {
@@ -171,9 +192,7 @@ footer {
   .shopImage {
     margin-left: 20px;
     margin-top: 22px;
-    padding-left: 5%; }
-  .cardImage {
-    height: 18rem; } }
+    padding-left: 5%; } }
 
 @media (min-width: 1400px) {
   .card-width {
@@ -181,9 +200,7 @@ footer {
   .shopImage {
     margin-left: 20px;
     margin-top: 22px;
-    padding-left: 5%; }
-  .cardImage {
-    height: 22rem; } }
+    padding-left: 5%; } }
 
 @media (min-width: 1600px) {
   .card-width {
@@ -191,9 +208,7 @@ footer {
   .shopImage {
     margin-left: 20px;
     margin-top: 22px;
-    padding-left: 5%; }
-  .cardImage {
-    height: 24rem; } }
+    padding-left: 5%; } }
 
 @media (min-width: 1800px) {
   .card-width {
@@ -201,9 +216,7 @@ footer {
   .shopImage {
     margin-left: 25px;
     margin-top: 22px;
-    padding-left: 5%; }
-  .cardImage {
-    height: 28rem; } }
+    padding-left: 5%; } }
 
 .picHover img:last-child {
   display: none; }
@@ -218,7 +231,9 @@ footer {
   position: relative; }
 
 .imageShopHover {
-  display: block; }
+  display: block;
+  width: 100%;
+  height: auto; }
 
 .overlay {
   position: absolute;
