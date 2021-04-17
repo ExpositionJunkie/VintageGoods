@@ -58,7 +58,7 @@ body {
 
 h2{
     text-align: center;
-    color: #E76F51;
+    color: $color-orange;
 
 
 }
@@ -108,7 +108,7 @@ body {
 
  h5{
         text-align: center;
-        color: #E76F51;
+        color: $color-orange;
         .rounded-circle {
             width: 100%;
             height: auto;
@@ -199,12 +199,12 @@ footer {
         font-size: 14px; 
     }
     .subscribe .btn-submit {
-        background: #E76F51;
+        background: $color-orange;
         height: 47px;
         border-radius: 30px;
         padding-left: 30px;
         padding-right: 30px;
-        color: #fff;
+        color: $color-light-purple;
         font-weight: bold;
         position: absolute;
         top: 4px;
