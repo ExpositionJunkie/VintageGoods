@@ -37,31 +37,64 @@ $footer-link-font: "Open Sans", "-apple-system", "BlinkMacSystemFont", "Segoe UI
     font-family: $footer-link-font;
 }
 
-// .logo-banner {
-//     @include for-phone-only {
-//         width: 80%;
-//         height: auto;
-//     }
-// }
+h1 {
+    font-family: $header-font;
+    color: $color-yellow;
+    letter-spacing: 7px;
+    font-size: 3rem;
+}
+
+.categoryHoverWrapper {
+    position: relative;
+}
 
 .card-category {
-    width: 250px;
-    height: 300px;
+    position: relative;
     object-fit: cover;
-    margin: 5%;
+    margin: .5rem;
+    height: 300px;
+    width: 250px;
+}
+
+.whiteOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 14px;
+    right: 0;
+
+    margin: .5rem;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(218, 203, 165, 0.733);
+}
+  
+.categoryHoverWrapper:hover .whiteOverlay {
+    opacity: 1;
+
+}
+
+.categoryCaption {
+    color: $color-dk-blue;
+    font-size: 2rem;
+    font-family: $body-font;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 body {
     background-color: $color-dk-blue;
-    
 }
 
-h2{
-    text-align: center;
-    color: $color-orange;
-
-
-}
 .carousel {
     width: 100%;
 }
@@ -88,7 +121,6 @@ h2{
         font-family: $body-font;
         font-weight: 200px;
     }
-
 }
 
 p {
@@ -103,18 +135,6 @@ body {
     background-color: $color-light-dk-blue;
 
 }
-//aboutUs formatting 
-
-
- h5{
-        text-align: center;
-        color: $color-orange;
-        .rounded-circle {
-            width: 100%;
-            height: auto;
-          }
-}
-
 
 
 // footer formatting only
@@ -199,12 +219,12 @@ footer {
         font-size: 14px; 
     }
     .subscribe .btn-submit {
-        background: $color-orange;
+        background: #E76F51;
         height: 47px;
         border-radius: 30px;
         padding-left: 30px;
         padding-right: 30px;
-        color: $color-light-purple;
+        color: #fff;
         font-weight: bold;
         position: absolute;
         top: 4px;
@@ -266,9 +286,6 @@ footer {
         margin-top: 22px;
         
       }
-      .cardImage {
-        height: 16rem;
-    }
 }
 
 
@@ -283,9 +300,6 @@ footer {
         margin-top: 22px;
         padding-left: 5%;
        }
-       .cardImage {
-        height: 18rem;
-    }
 }
 
 @media (min-width: 1400px) {
@@ -298,9 +312,6 @@ footer {
         margin-top: 22px;
         padding-left: 5%;
        }
-       .cardImage {
-        height: 22rem;
-    }
 }
 
 @media (min-width: 1600px) {
@@ -313,9 +324,6 @@ footer {
         margin-top: 22px;
         padding-left: 5%;
        }
-       .cardImage {
-        height: 24rem;
-    }
 }
 
 @media (min-width: 1800px) {
@@ -328,10 +336,6 @@ footer {
         margin-top: 22px;
         padding-left: 5%;
        }
-    
-    .cardImage {
-        height: 28rem;
-    }
 }
 
 .picHover {
@@ -354,6 +358,8 @@ footer {
 
 .imageShopHover {
     display: block;
+    width: 100%;
+    height: auto;
 }
 
 .overlay {
