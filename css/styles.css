@@ -247,9 +247,7 @@ footer {
   position: relative; }
 
 .imageShopHover {
-  display: block;
-  width: 100%;
-  height: auto; }
+  display: block; }
 
 .overlay {
   position: absolute;
