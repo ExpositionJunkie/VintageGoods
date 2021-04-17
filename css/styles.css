@@ -20,6 +20,10 @@
 body {
   background-color: #081B38; }
 
+h2 {
+  text-align: center;
+  color: #E76F51; }
+
 .carousel {
   width: 100%; }
 
@@ -51,6 +55,10 @@ body {
 
 .background-blue {
   background-color: #264653; }
+
+h5 {
+  text-align: center;
+  color: #E76F51; }
 
 footer {
   background-color: transparent;
