@@ -264,6 +264,13 @@ footer {
     line-height: 1.5em !important;
 }
 
+h1 {
+
+    padding: 75px;
+    padding-bottom: 5px;
+    
+    }
+
 h3{
     font-weight: 300!important;
     font-size: 25px !important;
@@ -354,7 +361,7 @@ p {
 }
 
 .card .card-header.card-header-image .card-title {
-    position: absolute;
+    position: justify;
     bottom: 5px;
     left: 15px;
     color:gray#888888;
@@ -398,13 +405,14 @@ p {
 }
 .card .text-info {
     color:#E76F51!important;
-    align-items: center;
+    align-items: justify;
+  
 }
 
 .card-profile .card-avatar {
     width: 130px;
     max-width: 130px;
-    max-height: 150px;
+    max-height: 100px;
     margin: -50px auto 0;
     border-radius: 50%;
     overflow: hidden;
@@ -413,7 +421,7 @@ p {
 }
 
 .card-profile .card-avatar img{
-    width: 75%;
+    width: 100%;
 }
 .card-profile .card-avatar+.card-body{
     margin-top: 15px;
