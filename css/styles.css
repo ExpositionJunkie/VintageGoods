@@ -177,9 +177,7 @@ h6 {
   font-weight: 500; }
 
 p {
-  font-size: 14px;
-  margin: 0 0 10px;
-  font-weight: 300; }
+  font-family: "Raleway", sans-serif; }
 
 .text-gray {
   color: #999 !important; }
@@ -193,7 +191,7 @@ p {
 .card {
   border: 0;
   margin-bottom: 30px;
-  margin-top: 100px;
+  margin-top: 75px;
   border-radius: 6px !important;
   color: rgba(0, 0, 0, 0.87);
   background: #fff;
@@ -217,7 +215,7 @@ p {
   margin-right: 15px;
   margin-top: -30px;
   border-radius: 6px;
-  max-height: 215px; }
+  max-height: 0px; }
 
 .card .card-header.card-header-image a {
   display: block; }
@@ -245,7 +243,7 @@ p {
   position: absolute;
   bottom: 5px;
   left: 15px;
-  color: #fff;
+  color: gray #888888;
   font-size: 1.125rem;
   text-shadow: 0 2px 5px rgba(33, 33, 33, 0.5);
   font-weight: 700;
@@ -278,12 +276,13 @@ p {
   margin-top: -15px; }
 
 .card .text-info {
-  color: #00bcd4 !important; }
+  color: #E76F51 !important;
+  align-items: center; }
 
 .card-profile .card-avatar {
   width: 130px;
   max-width: 130px;
-  max-height: 130px;
+  max-height: 150px;
   margin: -50px auto 0;
   border-radius: 50%;
   overflow: hidden;
@@ -291,163 +290,7 @@ p {
   box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2); }
 
 .card-profile .card-avatar img {
-  width: 100%; }
+  width: 75%; }
 
 .card-profile .card-avatar + .card-body {
   margin-top: 15px; }
-
-.btn:not(.btn-just-icon) {
-  position: relative;
-  padding: 12px 30px !important;
-  margin: .3125rem 1px;
-  font-size: .75rem !important;
-  font-weight: 400 !important;
-  line-height: 1.428571;
-  text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 0;
-  cursor: pointer;
-  background-color: transparent;
-  border: 0;
-  border-radius: .2rem;
-  outline: 0; }
-
-.btn.btn-just-icon.btn-round {
-  border-radius: 50%;
-  margin: .3125rem 1px; }
-
-.btn.btn-twitter {
-  color: #fff;
-  background-color: #55acee;
-  border-color: #55acee;
-  box-shadow: 0 2px 2px 0 rgba(85, 172, 238, 0.14), 0 3px 1px -2px rgba(85, 172, 238, 0.2), 0 1px 5px 0 rgba(85, 172, 238, 0.12); }
-
-.btn.btn-twitter.btn-link {
-  background-color: transparent;
-  color: #55acee;
-  box-shadow: none; }
-
-.btn.btn-twitter.btn-link:hover:active {
-  background-color: transparent;
-  color: #55acee;
-  box-shadow: none; }
-
-.btn.btn-twitter.btn-link:hover {
-  box-shadow: none;
-  background-color: transparent;
-  color: #55acee; }
-
-.btn.btn-twitter:hover {
-  background-color: #55acee;
-  color: #fff;
-  box-shadow: 0 14px 26px -12px rgba(85, 172, 238, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(85, 172, 238, 0.2); }
-
-.btn.btn-twitter:hover:active {
-  background-color: #55acee;
-  color: #fff;
-  box-shadow: 0 14px 26px -12px rgba(85, 172, 238, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(85, 172, 238, 0.2); }
-
-.btn.btn-twitter:active {
-  background-color: #55acee;
-  color: #fff;
-  box-shadow: 0 14px 26px -12px rgba(85, 172, 238, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(85, 172, 238, 0.2); }
-
-.btn.btn-twitter:focus {
-  background-color: #55acee;
-  color: #fff;
-  box-shadow: 0 14px 26px -12px rgba(85, 172, 238, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(85, 172, 238, 0.2); }
-
-.btn.btn-facebook {
-  color: #fff;
-  background-color: #3b5998;
-  border-color: #3b5998;
-  box-shadow: 0 2px 2px 0 rgba(59, 89, 152, 0.14), 0 3px 1px -2px rgba(59, 89, 152, 0.2), 0 1px 5px 0 rgba(59, 89, 152, 0.12); }
-
-.btn.btn-facebook:hover {
-  background-color: #3b5998;
-  color: #fff;
-  box-shadow: 0 14px 26px -12px rgba(59, 89, 152, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(59, 89, 152, 0.2); }
-
-.btn.btn-facebook:hover:active {
-  background-color: #3b5998;
-  color: #fff;
-  box-shadow: 0 14px 26px -12px rgba(59, 89, 152, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(59, 89, 152, 0.2); }
-
-.btn.btn-facebook:active {
-  background-color: #3b5998;
-  color: #fff;
-  box-shadow: 0 14px 26px -12px rgba(59, 89, 152, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(59, 89, 152, 0.2); }
-
-.btn.btn-facebook:focus {
-  background-color: #3b5998;
-  color: #fff;
-  box-shadow: 0 14px 26px -12px rgba(59, 89, 152, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(59, 89, 152, 0.2); }
-
-.btn.btn-dribbble.btn-link {
-  background-color: transparent;
-  color: #ea4c89; }
-
-.btn.btn-dribbble.btn-link:hover:active {
-  background-color: transparent;
-  color: #ea4c89; }
-
-.btn.btn-instagram.btn-link {
-  background-color: transparent;
-  color: #125688; }
-
-.btn.btn-instagram.btn-link:hover:active {
-  background-color: transparent;
-  color: #125688; }
-
-.btn.btn-google {
-  color: #fff;
-  background-color: #dd4b39;
-  border-color: #dd4b39;
-  box-shadow: 0 2px 2px 0 rgba(221, 75, 57, 0.14), 0 3px 1px -2px rgba(221, 75, 57, 0.2), 0 1px 5px 0 rgba(221, 75, 57, 0.12); }
-
-.btn.btn-google:hover {
-  color: #fff;
-  background-color: #dd4b39;
-  box-shadow: 0 14px 26px -12px rgba(221, 75, 57, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(221, 75, 57, 0.2); }
-
-.btn.btn-google:active {
-  color: #fff;
-  background-color: #dd4b39;
-  box-shadow: 0 14px 26px -12px rgba(221, 75, 57, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(221, 75, 57, 0.2); }
-
-.btn.btn-google:hover:active {
-  color: #fff;
-  background-color: #dd4b39;
-  box-shadow: 0 14px 26px -12px rgba(221, 75, 57, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(221, 75, 57, 0.2); }
-
-.btn.btn-google:focus {
-  color: #fff;
-  background-color: #dd4b39;
-  box-shadow: 0 14px 26px -12px rgba(221, 75, 57, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(221, 75, 57, 0.2); }
-
-.btn.btn-info {
-  color: #fff !important;
-  background-color: #00bcd4 !important;
-  border-color: #00bcd4 !important;
-  box-shadow: 0 2px 2px 0 rgba(0, 188, 212, 0.14), 0 3px 1px -2px rgba(0, 188, 212, 0.2), 0 1px 5px 0 rgba(0, 188, 212, 0.12); }
-
-.btn.btn-round {
-  border-radius: 30px; }
-
-footer {
-  margin-top: 100px;
-  color: #555;
-  background: #fff;
-  padding: 25px;
-  font-weight: 300; }
-
-.footer p {
-  margin-bottom: 0; }
-
-footer p a {
-  color: #555;
-  font-weight: 400; }
-
-footer p a:hover {
-  color: #9f26aa;
-  text-decoration: none; }
