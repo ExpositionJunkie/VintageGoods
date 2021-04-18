@@ -278,11 +278,10 @@ footer {
 
 @media (min-width: 0px) {
     .card-width {
-        width: 12rem;
+        width: 13rem;
     }
 
     .shopImage {
-        margin-left: 22px;
         margin-top: 22px;
         
     }
@@ -291,6 +290,13 @@ footer {
     }
 }
 
+@media (min-width: 768px) {
+    .card-width {
+      width: 11rem; }
+    .shopImage {
+      margin-top: 22px; }
+    .cardImage {
+      height: 13rem; } }
 
 
 @media (min-width: 992px) {
@@ -299,9 +305,7 @@ footer {
     }
 
     .shopImage {
-        margin-left: 20px;
         margin-top: 22px;
-        padding-left: 5%;
        }
        .cardImage{
         height: 18rem;
@@ -314,42 +318,37 @@ footer {
     }
 
     .shopImage {
-        margin-left: 20px;
         margin-top: 22px;
-        padding-left: 5%;
        }
        .cardImage{
-        height: 22rem;
+        height: 20rem;
     }
 }
 
 @media (min-width: 1600px) {
     .card-width {
-        width: 18rem;
+        width: 16rem;
     }
 
     .shopImage {
-        margin-left: 20px;
         margin-top: 22px;
-        padding-left: 5%;
        }
        .cardImage{
-        height: 24rem;
+        height: 20rem;
     }
 }
 
 @media (min-width: 1800px) {
     .card-width {
-        width: 21rem;
+        width: 16rem;
     }
 
     .shopImage {
-        margin-left: 25px;
         margin-top: 22px;
-        padding-left: 5%;
        }
+
        .cardImage{
-        height: 28rem;
+        height: 20rem;
     }
 }
 
