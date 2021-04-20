@@ -17,14 +17,7 @@
 KEYSTRING 6ldxmjbulo45wo6otj054ehd
 SHARED SECRET ctbjil51z6 */
 
-api_key = "6ldxmjbulo45wo6otj054ehd";
+//api_key = "6ldxmjbulo45wo6otj054ehd";
 
 // listings:
 // https://www.etsy.com/developers/documentation/reference/listing
-$(document).ready(function() {
-
-})
-
-function getData() {
-
-}

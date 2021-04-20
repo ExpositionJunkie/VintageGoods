@@ -91,6 +91,46 @@ h1 {
     text-align: center;
 }
 
+.largePhoto {
+    height: 500px;
+    width: auto;
+}
+
+.smallThumb {
+    height: 75px;
+    width: auto;
+}
+
+.featuredItems {
+    h2 {
+        font-family: $body-font;
+        color: $color-yellow;
+    }
+    h3 {
+        font-family: $body-font;
+        color: $color-orange;
+    }
+    li {
+        font-family: $body-font;
+        color: $color-orange;
+    }
+}
+
+.featuredItems {
+    h2 {
+        font-family: $body-font;
+        color: $color-yellow;
+    }
+    h3 {
+        font-family: $body-font;
+        color: $color-orange;
+    }
+    li {
+        font-family: $body-font;
+        color: $color-orange;
+    }
+}
+
 body {
     background-color: $color-dk-blue;
 }

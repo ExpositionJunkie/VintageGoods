@@ -57,6 +57,38 @@ h1 {
   transform: translate(-50%, -50%);
   text-align: center; }
 
+.largePhoto {
+  height: 500px;
+  width: auto; }
+
+.smallThumb {
+  height: 75px;
+  width: auto; }
+
+.featuredItems h2 {
+  font-family: "Raleway", sans-serif;
+  color: #EAB535; }
+
+.featuredItems h3 {
+  font-family: "Raleway", sans-serif;
+  color: #E76F51; }
+
+.featuredItems li {
+  font-family: "Raleway", sans-serif;
+  color: #E76F51; }
+
+.featuredItems h2 {
+  font-family: "Raleway", sans-serif;
+  color: #EAB535; }
+
+.featuredItems h3 {
+  font-family: "Raleway", sans-serif;
+  color: #E76F51; }
+
+.featuredItems li {
+  font-family: "Raleway", sans-serif;
+  color: #E76F51; }
+
 body {
   background-color: #081B38; }
 
