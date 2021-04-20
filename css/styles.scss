@@ -107,7 +107,7 @@ body {
 
 
  h5{
-        text-align: center;
+        text-align: left;
         color: #E76F51;
         .rounded-circle {
             width: 100%;
@@ -294,6 +294,7 @@ p {
 
 .text-gray {
     color: #999!important;
+    position: absolute;
 }
 
 .card-title{
@@ -315,117 +316,11 @@ p {
 
 .card .card-body{
     padding: .9375rem 1.875rem;
-}
-
-.card-description{
-    color: #999;
-}
-
-.card.card-profile{
-    text-align: center;
-}
-.card .card-header.card-header-image {
-    position: relative;
-    padding: 0;
-    z-index: 1;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-top: -30px;
-    border-radius: 6px;
-    max-height: 0px;
-}
-
-.card .card-header.card-header-image a {
-    display: block;
-}
-
-.card .card-header.card-header-image img {
-    width: 100%;
-    height: 215px;
-    border-radius: 6px;
-    pointer-events: none;
-    box-shadow: 0 5px 15px -8px rgba(0,0,0,.24), 0 8px 10px -5px rgba(0,0,0,.2);
-}
-
-.card .card-header.card-header-image .colored-shadow {
-    transform: scale(.94);
-    top: 12px;
-    filter: blur(12px);
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    z-index: -1;
-    transition: opacity .45s;
-    opacity: 1;
-}
-
-.card .card-header.card-header-image .card-title {
-    position: justify;
-    bottom: 5px;
-    left: 15px;
-    color:gray#888888;
-    font-size: 1.125rem;
-    text-shadow: 0 2px 5px rgba(33,33,33,.5);
-    font-weight: 700;
-    font-family: 'Roboto Slab';
-}
-
-.card .card-category {
-    margin-top: 15px;
-    margin-bottom: 10px;
-}
-
-.card .card-body+.card-footer {
-    padding-top: 0;
-    border: 0;
-    border-radius: 6px;
-}
-
-.card .card-footer {
-    display: flex;
-    align-items: center;
-    background-color: transparent;
-    border: 0;
-}
-
-.card-profile .card-footer .btn.btn-just-icon{
-    font-size: 20px;
-    padding: 12px 13px;
-    line-height: 1em;
-}
-
-.card .card-footer {
-    padding: .9375rem 1.875rem;
+    height: 40rem;
 }
 
 
-.card-profile .card-body+.card-footer{
-    margin-top: -15px;
-}
-.card .text-info {
-    color:#E76F51!important;
-    align-items: justify;
-  
-}
 
-.card-profile .card-avatar {
-    width: 130px;
-    max-width: 130px;
-    max-height: 100px;
-    margin: -50px auto 0;
-    border-radius: 50%;
-    overflow: hidden;
-    padding: 0;
-    box-shadow: 0 16px 38px -12px rgba(0,0,0,.56), 0 4px 25px 0 rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.2);
-}
-
-.card-profile .card-avatar img{
-    width: 100%;
-}
-.card-profile .card-avatar+.card-body{
-    margin-top: 15px;
-}
 
 
 
