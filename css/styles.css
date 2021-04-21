@@ -11,12 +11,6 @@
   background-color: #EAB535 !important;
   font-family: "Open Sans", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
 
-.card-category {
-  width: 250px;
-  height: 300px;
-  object-fit: cover;
-  margin: 5%; }
-
 body {
   background-color: #081B38; }
 
@@ -62,6 +56,10 @@ h5 {
   h5 .rounded-circle {
     width: 100%;
     height: auto; }
+
+.card .card-body {
+  padding: .9375rem 1.875rem;
+  height: 20rem; }
 
 footer {
   background-color: transparent;
@@ -192,17 +190,3 @@ p {
   margin-top: 10px;
   color: #3c4858;
   font-family: Roboto Slab,Times New Roman,serif; }
-
-.card {
-  border: 0;
-  margin-bottom: 30px;
-  margin-top: 75px;
-  border-radius: 6px !important;
-  color: rgba(0, 0, 0, 0.87);
-  background: #fff;
-  width: 100%;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
-
-.card .card-body {
-  padding: .9375rem 1.875rem;
-  height: 40rem; }
