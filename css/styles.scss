@@ -56,6 +56,17 @@ h1 {
     width: 250px;
 }
 
+.shipping {
+    .largeTitle{
+        font-size: 4rem;
+    }
+    p {
+        color: $color-orange;
+        font-family: $body-font;
+        font-size: 1.3rem;
+    }
+}
+
 .whiteOverlay {
     position: absolute;
     top: 0;

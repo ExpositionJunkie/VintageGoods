@@ -27,6 +27,14 @@ h1 {
   height: 300px;
   width: 250px; }
 
+.shipping .largeTitle {
+  font-size: 4rem; }
+
+.shipping p {
+  color: #E76F51;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.3rem; }
+
 .whiteOverlay {
   position: absolute;
   top: 0;
