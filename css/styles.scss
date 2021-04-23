@@ -44,6 +44,7 @@ h1 {
     font-size: 4rem;
 }
 
+
 .modal-content {
     background-color: $color-yellow;
     color: $color-dk-blue;
@@ -85,6 +86,17 @@ h1 {
         color: $color-orange;
         font-family: $body-font;
         font-size: 1.3rem;
+    }
+}
+
+.aboutUs{
+    h5{
+        text-align: left;
+        color: $color-orange;
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1rem;
     }
 }
 
@@ -208,6 +220,37 @@ body {
 
 }
 
+// thank you formatting
+.thankyou-page {
+    h1 {
+        text-align: center;
+    }
+    ._box {
+        margin: auto;
+        max-width: 80%;
+        padding: 50px;
+        background-color: $color-yellow;
+        color: $color-dk-blue;
+        border-radius: 3px;
+        box-shadow: 0 0 35px rgba(10, 10, 10,0.12);
+        -moz-box-shadow: 0 0 35px rgba(10, 10, 10,0.12);
+        -webkit-box-shadow: 0 0 35px rgba(10, 10, 10,0.12);
+    }
+    .btn {
+        background: #E76F51;
+        color: white;
+        border: 0;
+        font-size: 14px;
+        font-weight: 600;
+        border-radius: 0;
+        letter-spacing: 0.8px;
+        padding: 20px 33px;
+        text-transform: uppercase;
+    }
+    .buttonDiv {
+        text-align: center;
+    }
+}
 
 // footer formatting only
 footer {
@@ -346,6 +389,8 @@ footer {
         padding-left: 0; 
     }
 
+}html *{
+    -webkit-font-smoothing: antialiased;
 }
 
 @media (min-width: 0px) {

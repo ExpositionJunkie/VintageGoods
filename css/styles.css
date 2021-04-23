@@ -52,6 +52,14 @@ h1 {
   font-family: "Raleway", sans-serif;
   font-size: 1.3rem; }
 
+.aboutUs h5 {
+  text-align: left;
+  color: #E76F51;
+  font-size: 2rem; }
+
+.aboutUs p {
+  font-size: 1rem; }
+
 .whiteOverlay {
   position: absolute;
   top: 0;
@@ -149,6 +157,34 @@ body {
 .background-blue {
   background-color: #264653; }
 
+.thankyou-page h1 {
+  text-align: center; }
+
+.thankyou-page ._box {
+  margin: auto;
+  max-width: 80%;
+  padding: 50px;
+  background-color: #EAB535;
+  color: #081B38;
+  border-radius: 3px;
+  box-shadow: 0 0 35px rgba(10, 10, 10, 0.12);
+  -moz-box-shadow: 0 0 35px rgba(10, 10, 10, 0.12);
+  -webkit-box-shadow: 0 0 35px rgba(10, 10, 10, 0.12); }
+
+.thankyou-page .btn {
+  background: #E76F51;
+  color: white;
+  border: 0;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 0;
+  letter-spacing: 0.8px;
+  padding: 20px 33px;
+  text-transform: uppercase; }
+
+.thankyou-page .buttonDiv {
+  text-align: center; }
+
 footer {
   background-color: transparent;
   padding: 7rem 0;
@@ -241,6 +277,9 @@ footer {
       padding-left: 0px; } }
   footer .footer-menu li:first-child a {
     padding-left: 0; }
+
+html * {
+  -webkit-font-smoothing: antialiased; }
 
 @media (min-width: 0px) {
   .card-width {
