@@ -15,7 +15,24 @@ h1 {
   font-family: "Gelosa Cara", sans-serif;
   color: #EAB535;
   letter-spacing: 7px;
-  font-size: 3rem; }
+  font-size: 4rem; }
+
+.modal-content {
+  background-color: #EAB535;
+  color: #081B38;
+  font-family: "Raleway", sans-serif; }
+  .modal-content button {
+    background-color: #081B38;
+    color: #EAB535;
+    border-color: #081B38; }
+  .modal-content a {
+    padding-top: 10px;
+    color: #E76F51; }
+
+.contactPara {
+  color: #E76F51;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem; }
 
 .categoryHoverWrapper {
   position: relative; }

@@ -41,7 +41,28 @@ h1 {
     font-family: $header-font;
     color: $color-yellow;
     letter-spacing: 7px;
-    font-size: 3rem;
+    font-size: 4rem;
+}
+
+.modal-content {
+    background-color: $color-yellow;
+    color: $color-dk-blue;
+    font-family: $body-font;
+    button {
+        background-color: $color-dk-blue;
+        color: $color-yellow;
+        border-color: $color-dk-blue;
+    }
+    a {
+        padding-top: 10px;
+        color: $color-orange;
+    }
+}
+
+.contactPara {
+    color: $color-orange;
+    font-family: $body-font;
+    font-size: 1.5rem;
 }
 
 .categoryHoverWrapper {
